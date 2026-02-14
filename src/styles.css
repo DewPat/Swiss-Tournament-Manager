@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+body { margin: 0; background: #1a1a1a; color: #f5f5f5; font-family: 'Cinzel', serif; }
+.container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+.gold-text { text-align: center; color: #ffd700; font-size: 2.5rem; }
+.setup-card { background: rgba(255,255,255,0.05); padding: 25px; border-radius: 12px; border: 1px solid #333; margin-bottom: 20px; }
+.input-group { display: flex; gap: 10px; margin-bottom: 20px; }
+input { flex: 1; padding: 12px; border-radius: 8px; border: none; background: #333; color: white; }
+.gold-btn { background: #ffd700; border: none; padding: 10px 20px; border-radius: 8px; font-weight: bold; cursor: pointer; display: flex; align-items: center; gap: 5px; color: #000; }
+.pairing-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; }
+.player-box { padding: 8px; flex: 1; border-radius: 4px; text-align: center; font-weight: bold; }
+.white { background: #eee; color: #111; }
+.black { background: #111; color: #eee; border: 1px solid #444; }
+.vs { color: #ffd700; }
+.res-group { display: flex; gap: 5px; }
+.res-group button { padding: 8px; background: #333; border: none; color: white; border-radius: 4px; cursor: pointer; }
+.active-res { background: #ffd700 !important; color: #000 !important; }
+.standings-table { width: 100%; border-collapse: collapse; margin-top: 10px; text-align: left; }
+.standings-table th, .standings-table td { padding: 10px; border-bottom: 1px solid #333; }
+.start-btn { width: 100%; padding: 15px; background: #4CAF50; border: none; color: white; border-radius: 8px; font-weight: bold; cursor: pointer; margin-top: 10px; }
+.back-btn { background: none; border: none; color: #ffd700; cursor: pointer; display: flex; align-items: center; margin-bottom: 10px; }
+.withdrawn-row {
+  opacity: 0.5;
+  background: rgba(255, 77, 77, 0.05);
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.icon-btn:hover {
+  transform: scale(1.2);
+}
