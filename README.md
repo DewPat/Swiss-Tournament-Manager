@@ -67,7 +67,7 @@ This project demonstrates strong backend design, algorithmic implementation, and
 ```bash
 cd server
 npm install
-node index.js
+node server.js
 ```
 ### Frontend
 ```bash
